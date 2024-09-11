@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 960px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    grid-column: span 2;
+    background-color: #f0f7f4;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.intro h1 span {
+    color: #5ea39c;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    background-color: #d6eae2;
+    padding: 20px;
+}
+
+.skills h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    margin-bottom: 8px;
+    color: #5ea39c;
+}
+
+.content {
+    padding: 20px;
+    background-color: #f0f7f4;
+}
+
+.experience h2, .education h2, .languages h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.experience h2:hover, .education h2:hover, .languages h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+article time {
+    font-size: 14px;
+    color: #888;
+}
+
+article p {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer {
+    grid-column: span 2;
+    background-color: #f0f7f4;
+    padding: 20px;
+    text-align: left;
+    color: #5ea39c;
+}
+
+.footer address a {
+    font-style: italic;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
