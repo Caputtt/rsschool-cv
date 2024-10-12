@@ -1,116 +1,136 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
+  font-family: "Arial", sans-serif;
+  background-color: #f7f7f7;
+  color: #333333;
 }
 
 .resume {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    max-width: 960px;
-    margin: 50px auto;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 960px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    grid-column: span 2;
-    background-color: #f0f7f4;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  grid-column: span 2;
+  background-color: #f0f7f4;
+  padding: 20px;
 }
 
 .intro h1 {
-    font-size: 32px;
-    color: #333;
+  font-size: 32px;
+  color: #333333;
 }
 
 .intro h1 span {
-    color: #5ea39c;
+  color: #5ea39c;
+}
+
+h3 {
+  text-transform: uppercase;
 }
 
 .contact a {
-    color: #333;
-    text-decoration: none;
+  color: #333333;
+  text-decoration: none;
 }
 
 .contact a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .sidebar {
-    background-color: #d6eae2;
-    padding: 20px;
+  background-color: #d6eae2;
+  padding: 20px;
 }
 
 .skills h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333333;
 }
 
 .skills ul {
-    list-style: none;
+  list-style: none;
 }
 
 .skills ul li {
-    margin-bottom: 8px;
-    color: #5ea39c;
+  margin-bottom: 8px;
+  color: #5ea39c;
+}
+
+pre {
+  color: #5ea39c;
 }
 
 .content {
-    padding: 20px;
-    background-color: #f0f7f4;
+  padding: 20px;
+  background-color: #f0f7f4;
 }
 
-.experience h2, .education h2, .languages h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #333;
+.experience h2,
+.education h2,
+.languages h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333333;
 }
 
-.experience h2:hover, .education h2:hover, .languages h2:hover {
-    text-decoration: underline;
-    cursor: pointer;
+.experience h2:hover,
+.education h2:hover,
+.languages h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 article {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 article h3 {
-    font-size: 16px;
-    color: #333;
+  font-size: 16px;
+  color: #333333;
 }
 
 article time {
-    font-size: 14px;
-    color: #888;
+  font-size: 14px;
+  color: #888888;
 }
 
 article p {
-    font-size: 14px;
-    color: #666;
+  font-size: 14px;
+  color: #666666;
 }
 
 .footer {
-    grid-column: span 2;
-    background-color: #f0f7f4;
-    padding: 20px;
-    text-align: left;
-    color: #5ea39c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: span 2;
+  background-color: #f0f7f4;
+  padding: 5px 15px;
+  text-align: left;
+  color: #5ea39c;
 }
 
 .footer address a {
-    font-style: italic;
-    font-size: 16px;
-    color: #333;
-    text-decoration: none;
+  font-size: 16px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.footer address a:hover {
+  text-decoration: underline;
 }
