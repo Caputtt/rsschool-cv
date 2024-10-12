@@ -2,7 +2,7 @@
 
 ## Contacts
 
-### Discord: 
+### Discord: caput5294
 
 ## Hard skills
 
