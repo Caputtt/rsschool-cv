@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Caputtt.github.io/rsschool-cv/
