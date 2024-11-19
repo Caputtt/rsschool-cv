@@ -28,7 +28,7 @@ I have basic knowledge in manual testing, web development and analytical thinkin
 
 ## Code example
 
-```
+```js
 const data='Level'
 function isPalindrome (data) {
     data = data
