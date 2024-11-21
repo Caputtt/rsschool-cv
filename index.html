@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="/fonts/myfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume">
+        <header>
+            <div class="intro">
+                <h1><span>Anastasiya Nesma</span></h1>
+                <h3>Junior Frontend Developer</h3>
+                </div>
+            <div class="avatar">
+              <img class="avatar-img" src="ava.jpg" width="100" height="100" alt="Avatar.jpg">
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <section class="contact">
+            <h2>Contact information</h2>
+            <ul>
+              <li class="contact-item">
+                <a href="mailto:processus@gmail.com">processus@gmail.com</a>
+              </li>
+              <li class="contact-item">
+                <a href="https://discord.com">Discord: caput5294</a>
+              </li>
+              <li class="contact-item">
+                <a href="https://github.com/Caputtt">GitHub: Caputtt</a>
+              </li>
+            </ul>
+          </section>
+            <section class="skills">
+                <h2>Hard skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Angular</li>
+                    <li>Git</li>
+                </ul>
+                <h2>Soft skills</h2>
+                <ul>
+                    <li>Responsibility</li>
+                    <li>Adaptability</li>
+                    <li>Strategic thinking</li>
+                    <li>Teamwork</li>
+                    <li>Resilience</li>
+                </ul>
+                <h2>Code</h2>
+                <pre>
+const data='Level'
+function isPalindrome (data) {
+    data = data
+    .toString()
+    .toLowerCase()
+    .replace(/\s|[,.!?"/-]/g, '');
+    return data===data.split('').reverse().join('');
+}
+console.log(isPalindrome(data));
+                </pre>
+            </section>
+        </aside>
+
+        <main class="content">
+          <section class="about">
+            <h2>About me</h2>
+               <p>I have basic knowledge in manual testing, web development and analytical thinking skills. I am ready to develop in a dynamic team, learn from experienced specialists and contribute to improving the quality of products.</p>
+        </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+                <article>
+                    <h3>Lilietta Bakery</h3>
+                    <time datetime="2023">2023</time>
+                    <p>Creating a web application for the craft bakery "Lilietta Bakery".</p>
+                    <p>Market requirements analysis, user interface design, creation of a database, client and server parts of the application.</p>
+                    <p>The project used a variety of technologies and frameworks: Figma, Miro, HTML, CSS, JavaScript, Angular, NestJs, MongoDB.</p>
+                </article>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <article>
+                    <h3>ITMO University</h3>
+                    <time datetime="2022">2022</time>
+                    <p>Vocational retraining in the field of Big Data</p>
+                </article>
+
+                <article>
+                    <h3>Peter the Great St.Petersburg Polytechnic University (SPbPU)</h3>
+                    <time datetime="2023">2023</time>
+                    <p>Vocational retraining in the specialty of frontend developer</p>
+                </article>
+            </section>
+
+            <section class="languages">
+                <h2>Languages</h2>
+                <article>
+                    <h3>English</h3>
+                    <p>Basic</p>
+                </article>
+
+                <article>
+                    <h3>German</h3>
+                    <p>Basic</p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <address><a href="https://github.com/Caputtt">GitHub</a></address>
+            <time datetime="2024">2024</time>
+            <div class="footer-info-logo">
+              <a href="https://rs.school/courses/javascript">
+                <img width="56" height="56" loading="lazy" decoding="async" fetchpriority="low" src="rs-school-logo.svg" alt="RSS-logo" draggable="false">
+              </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

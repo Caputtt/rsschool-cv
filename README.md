@@ -1,1 +1,1 @@
-https://Caputtt.github.io/rsschool-cv/cv
+https://Caputtt.github.io/rsschool-cv/
